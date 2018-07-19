@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
       })
   })
     var carButtom = document.getElementById('carButtom');
-    timeButton.addEventListener('click', function(){
+    carButtom.addEventListener('click', function(){
       $.ajax({
         url:'http://first-ajax-api.herokuapp.com/a_car',
         method:'GET',
